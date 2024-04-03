@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beadazzle Market</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-image: url('https://source.unsplash.com/featured/?jewelry');
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product {
+            margin: 10px;
+            flex-basis: 21%;
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Beadazzle Market</h1>
+        <p>Individually-inspired bead jewelry</p>
+    </header>
+    <div class="content">
+        <h2>Featured Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://source.unsplash.com/featured/?necklace" alt="Necklace">
+                <h3>Necklaces</h3>
+                <p>Starting at $68.00</p>
+            </div>
+            <div class="product">
+                <img src="https://source.unsplash.com/featured/?earrings" alt="Earrings">
+                <h3>Earrings</h3>
+                <p>Starting at $28.00</p>
+            </div>
+            <div class="product">
+                <img src="https://source.unsplash.com/featured/?bracelet" alt="Bracelet">
+                <h3>Bracelets</h3>
+                <p>Starting at $28.00</p>
+            </div>
+            <div class="product">
+                <img src="https://source.unsplash.com/featured/?beads" alt="Beaded Jewelry">
+                <h3>Beaded Jewelry</h3>
+                <p>Starting at $30.00</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Contact us for custom jewelry orders!</p>
+    </footer>
+</body>
+</html>
